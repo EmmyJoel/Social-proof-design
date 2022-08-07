@@ -148,7 +148,7 @@ p {
 @media screen and (min-width:300px) and (max-width:750px) {
 
     html {background: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg") fixed;
-        background-size: 80%, 100%;
+        background-size: 50%, 70%;
     }
 
     body {
