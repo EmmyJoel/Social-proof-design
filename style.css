@@ -1,5 +1,4 @@
 html {
-
     scroll-behavior: smooth;
     width: 100%;
     background: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg") fixed;
@@ -157,7 +156,7 @@ p {
     body {
         margn:auto;
         box-sizing: border-box;
-        width: 90%;
+        width: 80%;
     }
 
     h1 {
