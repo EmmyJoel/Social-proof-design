@@ -16,11 +16,13 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 
 Overview
+
  - This is a challenge from [frontendmentor.io].
  - To replicate a card design from Frontendmentor [Social proof section challenge].
 
 
 The challenge
+
 - The challenge was to recreate the design, ensuring a proper responsiveness.
 Users should be able to:
 - experience the responsiveness of the design relative to the kind of device they use to access it, in terms of viewport(device screen width).
@@ -29,10 +31,10 @@ Users should be able to:
 
 Links
 
-- Solution URL: (https://your-solution-url.com)
 - Live Site URL: (https://emmyjoel.github.io/Social-proof-design/)
 
 My process
+
 - Did nothing much here though.
 - It actually didn't require much work. Just had to set up a structure and apply the neccessary Cascading styling. 
 - Built the larger screens compatibility first, and then the mobile.
@@ -41,10 +43,7 @@ Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- Mobile-first workflow
-
-
+- CSS Flexbox
 
 Continued development
 
