@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     scroll-behavior: smooth;
     width: 100%;
@@ -205,3 +206,208 @@ p {
         margin: auto;
     }
 }
+=======
+html {
+
+    scroll-behavior: smooth;
+    width: 100%;
+    background: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg) fixed;
+    background-size: 30%, 70%;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    font-family: 'League Spartan';
+}
+
+div {
+    margin: 10px 10px;
+}
+
+span {
+    margin: 10px 10px;
+}
+
+.top-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+h1 {
+    letter-spacing: -2px;
+    line-height: 2.5rem;
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+p {
+    line-height: 1.2rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.write-up {
+    padding-right: 150px;
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.write-up>p {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 15px;
+}
+
+.rating {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin: 5px;
+    padding: 10px 50px 10px 25px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.rating img {
+    height: 12px
+}
+
+.top {
+    margin-right: 100px;
+}
+
+.mid {
+    margin-right: 30px;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.bottom-flex {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bottom {
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    border-radius: 8px;
+    padding: 0px 30px 20px 30px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+
+.bottom img {
+    width: 30px;
+    height: 30px;
+    border-radius: 500px;
+}
+
+.one {
+    margin-top: 0px;
+}
+
+.two {
+    margin-top: 20px;
+}
+
+.three {
+    margin-top: 40px;
+
+}
+
+.verified {
+    margin: 10px 20px;
+}
+
+.verified p {
+    line-height: 2px;
+}
+
+.name {
+    color: white;
+    font-weight: 500;
+}
+
+@media screen and (min-width:300px) and (max-width:750px) {
+
+    html {background: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg) fixed;
+        background-size: 80%, 100%;
+    }
+
+    body {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    h1 {
+        padding: 20px 30px 0px 30px;
+        font-size: 40px;
+    }
+
+    .top-flex {
+        margin: auto;
+        display: block;
+    }
+
+    .write-up {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .ratings {
+        display: block;
+        width: auto;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+
+    .rating {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .rating span {
+        margin: auto;
+        display: block;
+    }
+
+    .bottom-flex {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .bottom {
+        margin: auto;
+    }
+}
+>>>>>>> 26f7417 (update style..css)
