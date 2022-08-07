@@ -2,7 +2,7 @@ html {
 
     scroll-behavior: smooth;
     width: 100%;
-    background: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg') fixed;
+    background: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg) fixed;
     background-size: 30%, 70%;
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
@@ -147,7 +147,7 @@ p {
 
 @media screen and (min-width:300px) and (max-width:750px) {
 
-    html {
+    html {background: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg) fixed;
         background-size: 80%, 100%;
     }
 
