@@ -154,9 +154,9 @@ p {
     }
 
     body {
-        margn:auto;
+        margin:auto;
         box-sizing: border-box;
-        width: 85%;
+        width: 90%;
     }
 
     h1 {
