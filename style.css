@@ -357,7 +357,7 @@ p {
 
     html {
         background: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg") fixed;
-        background-size: 70%, 60%;
+        background-size: 70%, 70%;
         background-position: left top, right bottom;
         background-repeat: no-repeat, no-repeat;
     }
@@ -396,6 +396,7 @@ p {
     .rating {
         display: block;
         margin: 10px auto;
+        padding:10px;
     }
 
     .rating span {
